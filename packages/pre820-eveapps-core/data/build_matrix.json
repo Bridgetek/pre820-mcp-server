@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "platforms": {
+    "MM900EV1A": {
+      "generator": "Eclipse CDT4 - Unix Makefiles",
+      "buildTool": "make",
+      "host": [
+        "Windows",
+        "Linux"
+      ],
+      "requires": [
+        "FT9XX_TOOLCHAIN"
+      ]
+    },
+    "MM900EV1B": {
+      "generator": "Eclipse CDT4 - Unix Makefiles",
+      "buildTool": "make",
+      "host": [
+        "Windows",
+        "Linux"
+      ],
+      "requires": [
+        "FT9XX_TOOLCHAIN"
+      ]
+    },
+    "MM900EV2A": {
+      "generator": "Eclipse CDT4 - Unix Makefiles",
+      "buildTool": "make",
+      "host": [
+        "Windows",
+        "Linux"
+      ],
+      "requires": [
+        "FT9XX_TOOLCHAIN"
+      ]
+    },
+    "MM900EV3A": {
+      "generator": "Eclipse CDT4 - Unix Makefiles",
+      "buildTool": "make",
+      "host": [
+        "Windows",
+        "Linux"
+      ],
+      "requires": [
+        "FT9XX_TOOLCHAIN"
+      ]
+    },
+    "MM900EV_LITE": {
+      "generator": "Eclipse CDT4 - Unix Makefiles",
+      "buildTool": "make",
+      "host": [
+        "Windows",
+        "Linux"
+      ],
+      "requires": [
+        "FT9XX_TOOLCHAIN"
+      ]
+    },
+    "MM930MINI": {
+      "generator": "Eclipse CDT4 - Unix Makefiles",
+      "buildTool": "make",
+      "host": [
+        "Windows"
+      ],
+      "requires": [
+        "FT9XX_TOOLCHAIN"
+      ]
+    },
+    "MM930LITE": {
+      "generator": "Eclipse CDT4 - Unix Makefiles",
+      "buildTool": "make",
+      "host": [
+        "Windows"
+      ],
+      "requires": [
+        "FT9XX_TOOLCHAIN"
+      ]
+    },
+    "MM932LC": {
+      "generator": "Eclipse CDT4 - Unix Makefiles",
+      "buildTool": "make",
+      "host": [
+        "Windows"
+      ],
+      "requires": [
+        "FT9XX_TOOLCHAIN"
+      ]
+    },
+    "FT900_PLATFORM": {
+      "generator": "Eclipse CDT4 - Unix Makefiles",
+      "buildTool": "make",
+      "host": [
+        "Windows",
+        "Linux"
+      ],
+      "requires": [
+        "FT9XX_TOOLCHAIN"
+      ]
+    },
+    "FT93X_PLATFORM": {
+      "generator": "Eclipse CDT4 - Unix Makefiles",
+      "buildTool": "make",
+      "host": [
+        "Windows",
+        "Linux"
+      ],
+      "requires": [
+        "FT9XX_TOOLCHAIN"
+      ]
+    },
+    "EVE_PLATFORM_FT4222": {
+      "generator": "NMake Makefiles",
+      "buildTool": "nmake",
+      "host": [
+        "Windows"
+      ]
+    },
+    "EVE_PLATFORM_MPSSE": {
+      "generator": "NMake Makefiles",
+      "buildTool": "nmake",
+      "host": [
+        "Windows"
+      ]
+    },
+    "EVE_PLATFORM_BT8XXEMU": {
+      "generator": "NMake Makefiles",
+      "buildTool": "nmake",
+      "host": [
+        "Windows"
+      ]
+    },
+    "EVE_PLATFORM_RP2040": {
+      "generator": "NMake Makefiles",
+      "buildTool": "nmake",
+      "host": [
+        "Windows"
+      ],
+      "requires": [
+        "PICO_SDK_PATH"
+      ]
+    },
+    "EVE_PLATFORM_MM2040EV": {
+      "generator": "NMake Makefiles",
+      "buildTool": "nmake",
+      "host": [
+        "Windows"
+      ],
+      "requires": [
+        "PICO_SDK_PATH"
+      ]
+    }
+  },
+  "graphics": [
+    "VM800B35A_BK",
+    "VM800B43A_BK",
+    "VM800B50A_BK",
+    "VM801B43A_BK",
+    "VM801B50A_BK",
+    "VM800C35A_N",
+    "VM800C43A_N",
+    "VM800C35A_D",
+    "VM800C43A_D",
+    "VM800C50A_D",
+    "ME812A_WH50R",
+    "ME812AU_WH50R",
+    "ME813A_WH50C",
+    "ME813AU_WH50C",
+    "VM810C50A_D",
+    "VM810C50A_N",
+    "ME810A_HV35R",
+    "VM816C50A_D",
+    "VM816C50A_N",
+    "VM816CU50A_D",
+    "VM816CU50A_N",
+    "ME810AU_HV35R",
+    "ME813A_WV7C",
+    "PANL35",
+    "PANL50",
+    "PANL70",
+    "PANL70PLUS",
+    "EVE_GRAPHICS_VM800C",
+    "EVE_GRAPHICS_VM810C",
+    "EVE_GRAPHICS_VM816C",
+    "EVE_GRAPHICS_ME817EV",
+    "EVE_GRAPHICS_FT800",
+    "EVE_GRAPHICS_FT801",
+    "EVE_GRAPHICS_FT810",
+    "EVE_GRAPHICS_FT811",
+    "EVE_GRAPHICS_FT812",
+    "EVE_GRAPHICS_FT813",
+    "EVE_GRAPHICS_BT880",
+    "EVE_GRAPHICS_BT881",
+    "EVE_GRAPHICS_BT882",
+    "EVE_GRAPHICS_BT883",
+    "EVE_GRAPHICS_BT815",
+    "EVE_GRAPHICS_BT816",
+    "EVE_GRAPHICS_BT817",
+    "EVE_GRAPHICS_BT817A",
+    "EVE_GRAPHICS_BT818"
+  ],
+  "displays": [
+    "QVGA",
+    "WQVGA",
+    "WVGA",
+    "WSVGA",
+    "WXGA",
+    "ILI9488_HVGA_PORTRAIT",
+    "KD2401_HVGA_PORTRAIT"
+  ],
+  "defaults": {
+    "platform": "EVE_PLATFORM_FT4222",
+    "graphics": "EVE_GRAPHICS_BT816",
+    "display": "WXGA"
+  },
+  "generators": {
+    "Eclipse CDT4 - Unix Makefiles": {
+      "tool": "make"
+    },
+    "NMake Makefiles": {
+      "tool": "nmake"
+    },
+    "Unix Makefiles": {
+      "tool": "make"
+    }
+  }
+}

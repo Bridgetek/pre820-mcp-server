@@ -1,0 +1,25 @@
+{
+  "name": "pre820-mcp-server-monorepo",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "clean": "node scripts/clean.js",
+    "release": "node scripts/release.js",
+    "dev:mcp": "npm run dev -w @bridgetek/pre820-mcp-server",
+    "dev:cli": "npm run dev -w @bridgetek/pre820-cli",
+    "link:mcp": "npm link -w @bridgetek/pre820-mcp-server"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.18",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@bridgetek/pre820-eveapps-core": "^1.0.0",
+    "@bridgetek/pre820-mcp-server": "^1.0.0"
+  }
+}

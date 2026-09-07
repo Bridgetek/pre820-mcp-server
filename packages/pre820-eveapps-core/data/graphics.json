@@ -1,0 +1,169 @@
+{
+  "FT800": {
+    "family": "GEN1",
+    "feature": [ "RESISTIVE" ]
+  },
+
+  "FT801": {
+    "family": "GEN1",
+    "feature": [ "CAPACITIVE" ]
+  },
+
+  "FT810": {
+    "family": "GEN2",
+    "feature": [
+      "EVE_SUPPORT_PNG",
+      "EVE_SUPPORT_VIDEO",
+      "EVE_SUPPORT_CMDB",
+      "EVE_SUPPORT_MEDIAFIFO",
+      "EVE_SUPPORT_RESISTIVE"
+    ]
+  },
+
+  "FT811": {
+    "family": "GEN2",
+    "feature": [
+      "EVE_SUPPORT_PNG",
+      "EVE_SUPPORT_VIDEO",
+      "EVE_SUPPORT_CMDB",
+      "EVE_SUPPORT_MEDIAFIFO",
+      "EVE_SUPPORT_CAPACITIVE"
+    ]
+  },
+
+  "FT812": {
+    "family": "GEN2",
+    "feature": [
+      "EVE_SUPPORT_PNG",
+      "EVE_SUPPORT_VIDEO",
+      "EVE_SUPPORT_CMDB",
+      "EVE_SUPPORT_MEDIAFIFO",
+      "EVE_SUPPORT_RESISTIVE"
+    ]
+  },
+
+  "FT813": {
+    "family": "GEN2",
+    "feature": [
+      "EVE_SUPPORT_PNG",
+      "EVE_SUPPORT_VIDEO",
+      "EVE_SUPPORT_CMDB",
+      "EVE_SUPPORT_MEDIAFIFO",
+      "EVE_SUPPORT_CAPACITIVE"
+    ]
+  },
+
+  "BT880": {
+    "family": "GEN2",
+    "feature": [
+      "EVE_SUPPORT_PNG",
+      "EVE_SUPPORT_VIDEO",
+      "EVE_SUPPORT_CMDB",
+      "EVE_SUPPORT_MEDIAFIFO",
+      "EVE_SUPPORT_RESISTIVE"
+    ]
+  },
+
+  "BT881": {
+    "family": "GEN2",
+    "feature": [
+      "EVE_SUPPORT_PNG",
+      "EVE_SUPPORT_VIDEO",
+      "EVE_SUPPORT_CMDB",
+      "EVE_SUPPORT_MEDIAFIFO",
+      "EVE_SUPPORT_CAPACITIVE"
+    ]
+  },
+
+  "BT882": {
+    "family": "GEN2",
+    "feature": [
+      "EVE_SUPPORT_PNG",
+      "EVE_SUPPORT_VIDEO",
+      "EVE_SUPPORT_CMDB",
+      "EVE_SUPPORT_MEDIAFIFO",
+      "EVE_SUPPORT_RESISTIVE"
+    ]
+  },
+
+  "BT883": {
+    "family": "GEN2",
+    "feature": [
+      "EVE_SUPPORT_PNG",
+      "EVE_SUPPORT_VIDEO",
+      "EVE_SUPPORT_CMDB",
+      "EVE_SUPPORT_MEDIAFIFO",
+      "EVE_SUPPORT_CAPACITIVE"
+    ]
+  },
+
+  "BT815": {
+    "family": "GEN3",
+    "feature": [
+      "EVE_SUPPORT_FLASH",
+      "EVE_SUPPORT_UNICODE",
+      "EVE_SUPPORT_ASTC",
+      "EVE_SUPPORT_PNG",
+      "EVE_SUPPORT_VIDEO",
+      "EVE_SUPPORT_CMDB",
+      "EVE_SUPPORT_MEDIAFIFO",
+      "EVE_SUPPORT_RESISTIVE"
+    ]
+  },
+
+  "BT816": {
+    "family": "GEN3",
+    "feature": [
+      "EVE_SUPPORT_FLASH",
+      "EVE_SUPPORT_UNICODE",
+      "EVE_SUPPORT_ASTC",
+      "EVE_SUPPORT_PNG",
+      "EVE_SUPPORT_VIDEO",
+      "EVE_SUPPORT_CMDB",
+      "EVE_SUPPORT_MEDIAFIFO",
+      "EVE_SUPPORT_CAPACITIVE"
+    ]
+  },
+
+  "BT817": {
+    "family": "GEN4",
+    "feature": [
+      "EVE_SUPPORT_FLASH",
+      "EVE_SUPPORT_UNICODE",
+      "EVE_SUPPORT_ASTC",
+      "EVE_SUPPORT_PNG",
+      "EVE_SUPPORT_VIDEO",
+      "EVE_SUPPORT_CMDB",
+      "EVE_SUPPORT_MEDIAFIFO",
+      "EVE_SUPPORT_RESISTIVE"
+    ]
+  },
+
+  "BT817A": {
+    "family": "GEN4",
+    "feature": [
+      "EVE_SUPPORT_FLASH",
+      "EVE_SUPPORT_UNICODE",
+      "EVE_SUPPORT_ASTC",
+      "EVE_SUPPORT_PNG",
+      "EVE_SUPPORT_VIDEO",
+      "EVE_SUPPORT_CMDB",
+      "EVE_SUPPORT_MEDIAFIFO",
+      "EVE_SUPPORT_RESISTIVE"
+    ]
+  },
+
+  "BT818": {
+    "family": "GEN4",
+    "feature": [
+      "EVE_SUPPORT_FLASH",
+      "EVE_SUPPORT_UNICODE",
+      "EVE_SUPPORT_ASTC",
+      "EVE_SUPPORT_PNG",
+      "EVE_SUPPORT_VIDEO",
+      "EVE_SUPPORT_CMDB",
+      "EVE_SUPPORT_MEDIAFIFO",
+      "EVE_SUPPORT_CAPACITIVE"
+    ]
+  }
+}

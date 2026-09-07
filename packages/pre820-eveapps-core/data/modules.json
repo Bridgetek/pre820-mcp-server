@@ -1,0 +1,331 @@
+{
+  "VM800B35A_BK": {
+    "graphic": "FT800",
+    "touch": "resistive",
+    "supportedDisplays": [ "QVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "VM800B43A_BK": {
+    "graphic": "FT800",
+    "touch": "focal",
+    "supportedDisplays": [ "WQVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "VM800B50A_BK": {
+    "graphic": "FT800",
+    "touch": "focal",
+    "supportedDisplays": [ "WQVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "VM801B43A_BK": {
+    "graphic": "FT801",
+    "touch": "focal",
+    "supportedDisplays": [ "WQVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "VM801B50A_BK": {
+    "graphic": "FT801",
+    "touch": "focal",
+    "supportedDisplays": [ "WQVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "VM800C35A_N": {
+    "graphic": "FT800",
+    "touch": "",
+    "supportedDisplays": [ "QVGA", "WQVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "VM800C43A_N": {
+    "graphic": "FT800",
+    "touch": "",
+    "supportedDisplays": [ "QVGA", "WQVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "VM800C35A_D": {
+    "graphic": "FT800",
+    "touch": "resistive",
+    "supportedDisplays": [ "QVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "VM800C43A_D": {
+    "graphic": "FT800",
+    "touch": "focal",
+    "supportedDisplays": [ "WQVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "VM800C50A_D": {
+    "graphic": "FT800",
+    "touch": "focal",
+    "supportedDisplays": [ "WQVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "ME812A_WH50R": {
+    "graphic": "FT812",
+    "touch": "",
+    "supportedDisplays": [ "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "ME812AU_WH50R": {
+    "graphic": "FT812",
+    "touch": "resistive",
+    "supportedDisplays": [ "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "ME813A_WH50C": {
+    "graphic": "FT813",
+    "touch": "",
+    "supportedDisplays": [ "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "ME813AU_WH50C": {
+    "graphic": "FT813",
+    "touch": "focal",
+    "supportedDisplays": [ "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "VM810C50A_D": {
+    "graphic": "FT810",
+    "touch": "resistive",
+    "supportedDisplays": [ "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "VM810C50A_N": {
+    "graphic": "FT810",
+    "touch": "",
+    "supportedDisplays": [ "QVGA", "WQVGA", "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "ME810A_HV35R": {
+    "graphic": "FT810",
+    "touch": "",
+    "supportedDisplays": [ "ILI9488_HVGA_PORTRAIT" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "VM816C50A_D": {
+    "graphic": "BT816",
+    "touch": "resistive",
+    "supportedDisplays": [ "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "VM816C50A_N": {
+    "graphic": "BT816",
+    "touch": "",
+    "supportedDisplays": [ "QVGA", "WQVGA", "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "VM816CU50A_D": {
+    "graphic": "BT816",
+    "touch": "resistive",
+    "supportedDisplays": [ "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "VM816CU50A_N": {
+    "graphic": "BT816",
+    "touch": "",
+    "supportedDisplays": [ "QVGA", "WQVGA", "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "ME810AU_HV35R": {
+    "graphic": "FT810",
+    "touch": "resistive",
+    "supportedDisplays": [ "ILI9488_HVGA_PORTRAIT" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "ME813A_WV7C": {
+    "graphic": "FT813",
+    "touch": "",
+    "supportedDisplays": [ "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "PANL35": {
+    "graphic": "FT811",
+    "touch": "",
+    "supportedDisplays": [ "KD2401_HVGA_PORTRAIT" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "PANL50": {
+    "graphic": "FT813",
+    "touch": "",
+    "supportedDisplays": [ "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "PANL70": {
+    "graphic": "FT811",
+    "touch": "",
+    "supportedDisplays": [ "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "PANL70PLUS": {
+    "graphic": "FT811",
+    "touch": "",
+    "supportedDisplays": [ "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_VM800C": {
+    "graphic": "FT800",
+    "touch": "resistive",
+    "supportedDisplays": [ "WQVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_VM810C": {
+    "graphic": "FT810",
+    "touch": "resistive",
+    "supportedDisplays": [ "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_VM816C": {
+    "graphic": "BT816",
+    "touch": "resistive",
+    "supportedDisplays": [ "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_ME817EV": {
+    "graphic": "BT817",
+    "touch": "focal",
+    "supportedDisplays": [ "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_IDM2040": {
+    "graphic": "BT817",
+    "touch": "focal",
+    "supportedDisplays": [ "WVGA" ],
+    "supportedPlatforms": [ "EVE_PLATFORM_RP2040", "EVE_PLATFORM_MM2040EV" ]
+  },
+
+  "EVE_GRAPHICS_IDM2040_43A": {
+    "graphic": "BT883",
+    "touch": "goodix",
+    "supportedDisplays": [ "WQVGA" ],
+    "supportedPlatforms": [ "EVE_PLATFORM_RP2040", "EVE_PLATFORM_MM2040EV" ]
+  },
+
+  "EVE_GRAPHICS_FT800": {
+    "graphic": "FT800",
+    "touch": "resistive",
+    "supportedDisplays": [ "QVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_FT801": {
+    "graphic": "FT801",
+    "touch": "",
+    "supportedDisplays": [ "QVGA", "WQVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_FT810": {
+    "graphic": "FT810",
+    "touch": "resistive",
+    "supportedDisplays": [ "QVGA", "WQVGA", "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_FT811": {
+    "graphic": "FT811",
+    "touch": "",
+    "supportedDisplays": [ "QVGA", "WQVGA", "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_FT812": {
+    "graphic": "FT812",
+    "touch": "resistive",
+    "supportedDisplays": [ "QVGA", "WQVGA", "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_FT813": {
+    "graphic": "FT813",
+    "touch": "",
+    "supportedDisplays": [ "QVGA", "WQVGA", "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_BT880": {
+    "graphic": "BT880",
+    "touch": "resistive",
+    "supportedDisplays": [ "QVGA", "WQVGA", "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_BT881": {
+    "graphic": "BT881",
+    "touch": "",
+    "supportedDisplays": [ "QVGA", "WQVGA", "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_BT882": {
+    "graphic": "BT882",
+    "touch": "resistive",
+    "supportedDisplays": [ "QVGA", "WQVGA", "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_BT883": {
+    "graphic": "BT883",
+    "touch": "",
+    "supportedDisplays": [ "QVGA", "WQVGA", "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_BT815": {
+    "graphic": "BT815",
+    "touch": "focal",
+    "supportedDisplays": [ "QVGA", "WQVGA", "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_BT816": {
+    "graphic": "BT816",
+    "touch": "resistive",
+    "supportedDisplays": [ "QVGA", "WQVGA", "WVGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_BT817": {
+    "graphic": "BT817",
+    "touch": "focal",
+    "supportedDisplays": [ "QVGA", "WQVGA", "WVGA", "WSVGA", "WXGA" ],
+    "supportedPlatforms": [ "*" ]
+  },
+
+  "EVE_GRAPHICS_BT818": {
+    "graphic": "BT818",
+    "touch": "resistive",
+    "supportedDisplays": [ "QVGA", "WQVGA", "WVGA", "WSVGA", "WXGA" ],
+    "supportedPlatforms": [ "*" ]
+  }
+
+}

@@ -1,0 +1,22 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "composite": true,
+    "declaration": true,
+    "ignoreDeprecations": "5.0",
+    "baseUrl": ".",
+    "paths": {
+      "@bridgetek/pre820-eveapps-core": ["../pre820-eveapps-core/src/index.ts"]
+    }
+  },
+  "references": [
+    {
+      "path": "../pre820-eveapps-core"
+    }
+  ],
+  "include": [
+    "src"
+  ]
+}

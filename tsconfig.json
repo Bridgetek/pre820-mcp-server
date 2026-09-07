@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/pre820-eveapps-core"
+    },
+    {
+      "path": "./packages/pre820-mcp-server"
+    },
+    {
+      "path": "./packages/pre820-cli"
+    }
+  ]
+}

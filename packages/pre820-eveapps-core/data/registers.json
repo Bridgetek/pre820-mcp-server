@@ -1,0 +1,5163 @@
+[
+  {
+    "name": "CMD_ANIMDRAW",
+    "kind": "command_constant",
+    "value": "4294967126UL",
+    "summary": "0xFFFFFF56UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "animation",
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_ANIMFRAME",
+    "kind": "command_constant",
+    "value": "4294967130UL",
+    "summary": "0xFFFFFF5AUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "animation",
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_ANIMFRAMERAM",
+    "kind": "command_constant",
+    "value": "4294967149UL",
+    "summary": "0xFFFFFF6DUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "animation",
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_ANIMSTART",
+    "kind": "command_constant",
+    "value": "4294967123UL",
+    "summary": "0xFFFFFF53UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "animation",
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_ANIMSTARTRAM",
+    "kind": "command_constant",
+    "value": "4294967150UL",
+    "summary": "0xFFFFFF6EUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "animation",
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_ANIMSTOP",
+    "kind": "command_constant",
+    "value": "4294967124UL",
+    "summary": "0xFFFFFF54UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "animation",
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_ANIMXY",
+    "kind": "command_constant",
+    "value": "4294967125UL",
+    "summary": "0xFFFFFF55UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "animation",
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_APILEVEL",
+    "kind": "command_constant",
+    "value": "4294967139UL",
+    "summary": "0xFFFFFF63UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_APPEND",
+    "kind": "command_constant",
+    "value": "4294967070UL",
+    "summary": "0xFFFFFF1EUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_APPENDF",
+    "kind": "command_constant",
+    "value": "4294967129UL",
+    "summary": "0xFFFFFF59UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "flash",
+      "interface"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_BGCOLOR",
+    "kind": "command_constant",
+    "value": "4294967049UL",
+    "summary": "0xFFFFFF09UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_BITMAP_TRANSFORM",
+    "kind": "command_constant",
+    "value": "4294967073UL",
+    "summary": "0xFFFFFF21UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "bitmap",
+      "coprocessor",
+      "image"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_BUTTON",
+    "kind": "command_constant",
+    "value": "4294967053UL",
+    "summary": "0xFFFFFF0DUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_CALIBRATE",
+    "kind": "command_constant",
+    "value": "4294967061UL",
+    "summary": "0xFFFFFF15UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_CALIBRATESUB",
+    "kind": "command_constant",
+    "value": "4294967136UL",
+    "summary": "0xFFFFFF60UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_CALLLIST",
+    "kind": "command_constant",
+    "value": "4294967143UL",
+    "summary": "0xFFFFFF67UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_CLEARCACHE",
+    "kind": "command_constant",
+    "value": "4294967119UL",
+    "summary": "0xFFFFFF4FUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_CLOCK",
+    "kind": "command_constant",
+    "value": "4294967060UL",
+    "summary": "0xFFFFFF14UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_CSKETCH",
+    "kind": "command_constant",
+    "value": "4294967093UL",
+    "summary": "0xFFFFFF35UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1"
+      ]
+    }
+  },
+  {
+    "name": "CMD_COLDSTART",
+    "kind": "command_constant",
+    "value": "4294967090UL",
+    "summary": "0xFFFFFF32UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_DIAL",
+    "kind": "command_constant",
+    "value": "4294967085UL",
+    "summary": "0xFFFFFF2DUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_DLSTART",
+    "kind": "command_constant",
+    "value": "4294967040UL",
+    "summary": "0xFFFFFF00UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_ENDLIST",
+    "kind": "command_constant",
+    "value": "4294967145UL",
+    "summary": "0xFFFFFF69UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FGCOLOR",
+    "kind": "command_constant",
+    "value": "4294967050UL",
+    "summary": "0xFFFFFF0AUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FILLWIDTH",
+    "kind": "command_constant",
+    "value": "4294967128UL",
+    "summary": "0xFFFFFF58UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FLASHATTACH",
+    "kind": "command_constant",
+    "value": "4294967113UL",
+    "summary": "0xFFFFFF49UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "flash",
+      "interface"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FLASHDETACH",
+    "kind": "command_constant",
+    "value": "4294967112UL",
+    "summary": "0xFFFFFF48UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "flash",
+      "interface"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FLASHERASE",
+    "kind": "command_constant",
+    "value": "4294967108UL",
+    "summary": "0xFFFFFF44UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "flash",
+      "interface"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FLASHFAST",
+    "kind": "command_constant",
+    "value": "4294967114UL",
+    "summary": "0xFFFFFF4AUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "flash",
+      "interface"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FLASHPROGRAM",
+    "kind": "command_constant",
+    "value": "4294967152UL",
+    "summary": "0xFFFFFF70UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "flash",
+      "interface"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FLASHREAD",
+    "kind": "command_constant",
+    "value": "4294967110UL",
+    "summary": "0xFFFFFF46UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "flash",
+      "interface"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FLASHSOURCE",
+    "kind": "command_constant",
+    "value": "4294967118UL",
+    "summary": "0xFFFFFF4EUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "flash",
+      "interface"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FLASHSPIDESEL",
+    "kind": "command_constant",
+    "value": "4294967115UL",
+    "summary": "0xFFFFFF4BUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "flash",
+      "interface"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FLASHSPIRX",
+    "kind": "command_constant",
+    "value": "4294967117UL",
+    "summary": "0xFFFFFF4DUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "flash",
+      "interface"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FLASHSPITX",
+    "kind": "command_constant",
+    "value": "4294967116UL",
+    "summary": "0xFFFFFF4CUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "flash",
+      "interface"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FLASHUPDATE",
+    "kind": "command_constant",
+    "value": "4294967111UL",
+    "summary": "0xFFFFFF47UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "flash",
+      "interface"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FLASHWRITE",
+    "kind": "command_constant",
+    "value": "4294967109UL",
+    "summary": "0xFFFFFF45UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "flash",
+      "interface"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FONTCACHE",
+    "kind": "command_constant",
+    "value": "4294967147UL",
+    "summary": "0xFFFFFF6BUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "font"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_FONTCACHEQUERY",
+    "kind": "command_constant",
+    "value": "4294967148UL",
+    "summary": "0xFFFFFF6CUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "font"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_GAUGE",
+    "kind": "command_constant",
+    "value": "4294967059UL",
+    "summary": "0xFFFFFF13UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_GETIMAGE",
+    "kind": "command_constant",
+    "value": "4294967140UL",
+    "summary": "0xFFFFFF64UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "bitmap",
+      "coprocessor",
+      "image"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_GETMATRIX",
+    "kind": "command_constant",
+    "value": "4294967091UL",
+    "summary": "0xFFFFFF33UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_GETPROPS",
+    "kind": "command_constant",
+    "value": "4294967077UL",
+    "summary": "0xFFFFFF25UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_GETPTR",
+    "kind": "command_constant",
+    "value": "4294967075UL",
+    "summary": "0xFFFFFF23UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_GRADCOLOR",
+    "kind": "command_constant",
+    "value": "4294967092UL",
+    "summary": "0xFFFFFF34UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_GRADIENT",
+    "kind": "command_constant",
+    "value": "4294967051UL",
+    "summary": "0xFFFFFF0BUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_GRADIENTA",
+    "kind": "command_constant",
+    "value": "4294967127UL",
+    "summary": "0xFFFFFF57UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_HSF",
+    "kind": "command_constant",
+    "value": "4294967138UL",
+    "summary": "0xFFFFFF62UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_INFLATE",
+    "kind": "command_constant",
+    "value": "4294967074UL",
+    "summary": "0xFFFFFF22UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_INFLATE2",
+    "kind": "command_constant",
+    "value": "4294967120UL",
+    "summary": "0xFFFFFF50UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_INTERRUPT",
+    "kind": "command_constant",
+    "value": "4294967042UL",
+    "summary": "0xFFFFFF02UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_KEYS",
+    "kind": "command_constant",
+    "value": "4294967054UL",
+    "summary": "0xFFFFFF0EUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_LOADIDENTITY",
+    "kind": "command_constant",
+    "value": "4294967078UL",
+    "summary": "0xFFFFFF26UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_LOADIMAGE",
+    "kind": "command_constant",
+    "value": "4294967076UL",
+    "summary": "0xFFFFFF24UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "bitmap",
+      "coprocessor",
+      "image"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_LOGO",
+    "kind": "command_constant",
+    "value": "4294967089UL",
+    "summary": "0xFFFFFF31UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_MEDIAFIFO",
+    "kind": "command_constant",
+    "value": "4294967097UL",
+    "summary": "0xFFFFFF39UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_MEMCPY",
+    "kind": "command_constant",
+    "value": "4294967069UL",
+    "summary": "0xFFFFFF1DUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_MEMCRC",
+    "kind": "command_constant",
+    "value": "4294967064UL",
+    "summary": "0xFFFFFF18UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_MEMSET",
+    "kind": "command_constant",
+    "value": "4294967067UL",
+    "summary": "0xFFFFFF1BUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_MEMWRITE",
+    "kind": "command_constant",
+    "value": "4294967066UL",
+    "summary": "0xFFFFFF1AUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_MEMZERO",
+    "kind": "command_constant",
+    "value": "4294967068UL",
+    "summary": "0xFFFFFF1CUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_NEWLIST",
+    "kind": "command_constant",
+    "value": "4294967144UL",
+    "summary": "0xFFFFFF68UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_NOP",
+    "kind": "command_constant",
+    "value": "4294967131UL",
+    "summary": "0xFFFFFF5BUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_NUMBER",
+    "kind": "command_constant",
+    "value": "4294967086UL",
+    "summary": "0xFFFFFF2EUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_PCLKFREQ",
+    "kind": "command_constant",
+    "value": "4294967146UL",
+    "summary": "0xFFFFFF6AUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_PLAYVIDEO",
+    "kind": "command_constant",
+    "value": "4294967098UL",
+    "summary": "0xFFFFFF3AUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "video"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_PROGRESS",
+    "kind": "command_constant",
+    "value": "4294967055UL",
+    "summary": "0xFFFFFF0FUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_REGREAD",
+    "kind": "command_constant",
+    "value": "4294967065UL",
+    "summary": "0xFFFFFF19UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_RESETFONTS",
+    "kind": "command_constant",
+    "value": "44294967122UL",
+    "summary": "0xFFFFFF52UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "font",
+      "text"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_RETURN",
+    "kind": "command_constant",
+    "value": "4294967142UL",
+    "summary": "0xFFFFFF66UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_ROMFONT",
+    "kind": "command_constant",
+    "value": "4294967103UL",
+    "summary": "0xFFFFFF3FUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "font",
+      "text"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_ROTATE",
+    "kind": "command_constant",
+    "value": "4294967081UL",
+    "summary": "0xFFFFFF29UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_ROTATEAROUND",
+    "kind": "command_constant",
+    "value": "4294967121UL",
+    "summary": "0xFFFFFF51UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_RUNANIM",
+    "kind": "command_constant",
+    "value": "4294967151UL",
+    "summary": "0xFFFFFF6FUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "animation",
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SCALE",
+    "kind": "command_constant",
+    "value": "4294967080UL",
+    "summary": "0xFFFFFF28UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SCREENSAVER",
+    "kind": "command_constant",
+    "value": "4294967087UL",
+    "summary": "0xFFFFFF2FUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SCROLLBAR",
+    "kind": "command_constant",
+    "value": "4294967057UL",
+    "summary": "0xFFFFFF11UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SETBASE",
+    "kind": "command_constant",
+    "value": "4294967096UL",
+    "summary": "0xFFFFFF38UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SETBITMAP",
+    "kind": "command_constant",
+    "value": "4294967107UL",
+    "summary": "0xFFFFFF43UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "bitmap",
+      "coprocessor",
+      "image"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SETFONT",
+    "kind": "command_constant",
+    "value": "4294967083UL",
+    "summary": "0xFFFFFF2BUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "font",
+      "text"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SETFONT2",
+    "kind": "command_constant",
+    "value": "4294967099UL",
+    "summary": "0xFFFFFF3BUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "font",
+      "text"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SETMATRIX",
+    "kind": "command_constant",
+    "value": "4294967082UL",
+    "summary": "0xFFFFFF2AUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SETROTATE",
+    "kind": "command_constant",
+    "value": "4294967094UL",
+    "summary": "0xFFFFFF36UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SETSCRATCH",
+    "kind": "command_constant",
+    "value": "4294967100UL",
+    "summary": "0xFFFFFF3CUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SKETCH",
+    "kind": "command_constant",
+    "value": "4294967088UL",
+    "summary": "0xFFFFFF30UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SLIDER",
+    "kind": "command_constant",
+    "value": "4294967056UL",
+    "summary": "0xFFFFFF10UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SNAPSHOT",
+    "kind": "command_constant",
+    "value": "4294967071UL",
+    "summary": "0xFFFFFF1FUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SNAPSHOT2",
+    "kind": "command_constant",
+    "value": "4294967095UL",
+    "summary": "0xFFFFFF37UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SPINNER",
+    "kind": "command_constant",
+    "value": "4294967062UL",
+    "summary": "0xFFFFFF16UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_STOP",
+    "kind": "command_constant",
+    "value": "4294967063UL",
+    "summary": "0xFFFFFF17UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SWAP",
+    "kind": "command_constant",
+    "value": "4294967041UL",
+    "summary": "0xFFFFFF01UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_SYNC",
+    "kind": "command_constant",
+    "value": "4294967106UL",
+    "summary": "0xFFFFFF42UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_TESTCARD",
+    "kind": "command_constant",
+    "value": "4294967137UL",
+    "summary": "0xFFFFFF61UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_TEXT",
+    "kind": "command_constant",
+    "value": "4294967052UL",
+    "summary": "0xFFFFFF0CUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_TOGGLE",
+    "kind": "command_constant",
+    "value": "4294967058UL",
+    "summary": "0xFFFFFF12UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_TRACK",
+    "kind": "command_constant",
+    "value": "4294967084UL",
+    "summary": "0xFFFFFF2CUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_TRANSLATE",
+    "kind": "command_constant",
+    "value": "4294967079UL",
+    "summary": "0xFFFFFF27UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_VIDEOFRAME",
+    "kind": "command_constant",
+    "value": "4294967105UL",
+    "summary": "0xFFFFFF41UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "video"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_VIDEOSTART",
+    "kind": "command_constant",
+    "value": "4294967104UL",
+    "summary": "0xFFFFFF40UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "video"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_VIDEOSTARTF",
+    "kind": "command_constant",
+    "value": "4294967135UL",
+    "summary": "0xFFFFFF5FUL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor",
+      "video",
+      "flash",
+      "interface"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "CMD_WAIT",
+    "kind": "command_constant",
+    "value": "4294967141UL",
+    "summary": "0xFFFFFF65UL",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_3D",
+    "kind": "option_flag",
+    "value": "0UL",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_CENTER",
+    "kind": "option_flag",
+    "value": "1536UL",
+    "summary": "0x600",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_CENTERX",
+    "kind": "option_flag",
+    "value": "512UL",
+    "summary": "0x200",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_CENTERY",
+    "kind": "option_flag",
+    "value": "1024UL",
+    "summary": "0x400",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_DITHER",
+    "kind": "option_flag",
+    "value": "256UL",
+    "summary": "0x100",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_FILL",
+    "kind": "option_flag",
+    "value": "8192UL",
+    "summary": "0x2000",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_FLASH",
+    "kind": "option_flag",
+    "value": "64UL",
+    "summary": "0x40",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "flash",
+      "interface"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN3+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_FLAT",
+    "kind": "option_flag",
+    "value": "256UL",
+    "summary": "0x100",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_FORMAT",
+    "kind": "option_flag",
+    "value": "4096UL",
+    "summary": "0x1000",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_FULLSCREEN",
+    "kind": "option_flag",
+    "value": "8UL",
+    "summary": "0x8",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_MEDIAFIFO",
+    "kind": "option_flag",
+    "value": "16UL",
+    "summary": "0x10",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_MONO",
+    "kind": "option_flag",
+    "value": "1UL",
+    "summary": "0x1",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_NOBACK",
+    "kind": "option_flag",
+    "value": "4096UL",
+    "summary": "0x1000",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_NODL",
+    "kind": "option_flag",
+    "value": "2UL",
+    "summary": "0x2",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_NOHANDS",
+    "kind": "option_flag",
+    "value": "49152UL",
+    "summary": "0xC000",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_NOHM",
+    "kind": "option_flag",
+    "value": "16384UL",
+    "summary": "0x4000",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_NOPOINTER",
+    "kind": "option_flag",
+    "value": "16384UL",
+    "summary": "0x4000",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_NOSECS",
+    "kind": "option_flag",
+    "value": "32768UL",
+    "summary": "0x8000",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_NOTICKS",
+    "kind": "option_flag",
+    "value": "8192UL",
+    "summary": "0x2000",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_OVERLAY",
+    "kind": "option_flag",
+    "value": "128UL",
+    "summary": "0x80",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_RGB565",
+    "kind": "option_flag",
+    "value": "0UL",
+    "summary": "0x0",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_RIGHTX",
+    "kind": "option_flag",
+    "value": "2048UL",
+    "summary": "0x800",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_SIGNED",
+    "kind": "option_flag",
+    "value": "256UL",
+    "summary": "0x100",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "OPT_SOUND",
+    "kind": "option_flag",
+    "value": "32UL",
+    "summary": "0x20",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "audio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN2+"
+      ]
+    }
+  },
+  {
+    "name": "EVE_DL_SIZE",
+    "kind": "constant",
+    "value": "(8 * 1024UL)",
+    "summary": "8kB Display List buffer size",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "EVE_CMD_FIFO_SIZE",
+    "kind": "constant",
+    "value": "(4 * 1024UL)",
+    "summary": "4k coprocessor FIFO size",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "RAM_G",
+    "kind": "memory_region",
+    "value": "0",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "ROM_CHIPID",
+    "kind": "memory_region",
+    "value": "786432",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "RAM_ERR_REPORT",
+    "kind": "memory_region",
+    "value": "0x309800",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "RAM_G_SIZE",
+    "kind": "constant",
+    "summary": "RAMG size",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [],
+    "variants": [
+      {
+        "value": "256*1024L",
+        "supportedWhen": {
+          "graphics": [
+            "EVE_GRAPHICS_BT880",
+            "EVE_GRAPHICS_BT881",
+            "EVE_GRAPHICS_BT882",
+            "EVE_GRAPHICS_BT883"
+          ]
+        }
+      },
+      {
+        "value": "256*1024L",
+        "supportedWhen": {
+          "family": ["GEN1"]
+        }
+      },
+      {
+        "value": "1024*1024",
+        "supportedWhen": {
+          "family": ["GEN2+"]
+        }
+      }
+    ]
+  },
+    {
+    "name": "EVE_HAL_REG_ID",
+    "kind": "memory_region",
+    "summary": "Register ID base address",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": ["display"],
+    "variants": [
+      {
+        "value": "1057792UL",
+        "supportedWhen": {
+          "family": ["GEN1"]
+        }
+      },
+      {
+        "value": "3153920UL",
+        "supportedWhen": {
+          "family": ["GEN2+"]
+        }
+      }
+    ]
+  },
+    {
+    "name": "EVE_HAL_REG_CPURESET",
+    "kind": "memory_region",
+    "summary": "CPU reset register base address",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": ["display"],
+    "variants": [
+      {
+        "value": "1057820UL",
+        "supportedWhen": {
+          "family": ["GEN1"]
+        }
+      },
+      {
+        "value": "3153952UL",
+        "supportedWhen": {
+          "family": ["GEN2+"]
+        }
+      }
+    ]
+  },
+    {
+    "name": "EVE_HAL_REG_J1_INT",
+    "kind": "memory_region",
+    "summary": "J1 interrupt register base address",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": ["display"],
+    "variants": [
+      {
+        "value": "1057940UL",
+        "supportedWhen": {
+          "family": ["GEN1"]
+        }
+      },
+      {
+        "value": "3154084UL",
+        "supportedWhen": {
+          "family": ["GEN2+"]
+        }
+      }
+    ]
+  },
+    {
+    "name": "EVE_HAL_REG_CMD_READ",
+    "kind": "memory_region",
+    "summary": "Command read register base address",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": ["display"],
+    "variants": [
+      {
+        "value": "1058020UL",
+        "supportedWhen": {
+          "family": ["GEN1"]
+        }
+      },
+      {
+        "value": "3154168UL",
+        "supportedWhen": {
+          "family": ["GEN2+"]
+        }
+      }
+    ]
+  },
+    {
+    "name": "EVE_HAL_REG_TOUCH_TRANSFORM_A",
+    "kind": "memory_region",
+    "summary": "Touch transform register A base address",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": ["display"],
+    "variants": [
+      {
+        "value": "1058076UL",
+        "supportedWhen": {
+          "family": ["GEN1"]
+        }
+      },
+      {
+        "value": "3154256UL",
+        "supportedWhen": {
+          "family": ["GEN2+"]
+        }
+      }
+    ]
+  },
+    {
+    "name": "EVE_HAL_REG_CRC",
+    "kind": "memory_region",
+    "summary": "CRC register base address",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": ["display"],
+    "variants": [
+      {
+        "value": "1058152UL",
+        "supportedWhen": {
+          "family": ["GEN1"]
+        }
+      },
+      {
+        "value": "3154296UL",
+        "supportedWhen": {
+          "family": ["GEN2+"]
+        }
+      }
+    ]
+  },
+    {
+    "name": "EVE_HAL_REG_TRIM",
+    "kind": "memory_region",
+    "summary": "Trim register base address",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": ["display"],
+    "variants": [
+      {
+        "value": "1058156UL",
+        "supportedWhen": {
+          "family": ["GEN1"]
+        }
+      },
+      {
+        "value": "3154304UL",
+        "supportedWhen": {
+          "family": ["GEN2+"]
+        }
+      }
+    ]
+  },
+    {
+    "name": "EVE_HAL_REG_TOUCH_DIRECT_XY",
+    "kind": "memory_region",
+    "summary": "Touch direct XY register base address",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": ["display"],
+    "variants": [
+      {
+        "value": "1058164UL",
+        "supportedWhen": {
+          "family": ["GEN1"]
+        }
+      },
+      {
+        "value": "3154316UL",
+        "supportedWhen": {
+          "family": ["GEN2+"]
+        }
+      }
+    ]
+  },
+    {
+    "name": "EVE_HAL_REG_DATESTAMP",
+    "kind": "memory_region",
+    "summary": "Datestamp register base address",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": ["display"],
+    "variants": [
+      {
+        "value": "1058108UL",
+        "supportedWhen": {
+          "family": ["GEN1"]
+        }
+      },
+      {
+        "value": "3155300UL",
+        "supportedWhen": {
+          "family": ["GEN2+"]
+        }
+      }
+    ]
+  },
+    {
+    "name": "EVE_HAL_REG_CMDB_SPACE",
+    "kind": "memory_region",
+    "summary": "CMDB space register base address",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": ["display"],
+    "variants": [
+      {
+        "value": "0",
+        "supportedWhen": {
+          "family": ["GEN1"]
+        }
+      },
+      {
+        "value": "3155316UL",
+        "supportedWhen": {
+          "family": ["GEN2+"]
+        }
+      }
+    ]
+  },
+    {
+    "name": "EVE_HAL_REG_TRACKER",
+    "kind": "memory_region",
+    "summary": "Tracker register base address",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": ["display"],
+    "variants": [
+      {
+        "value": "1085440UL",
+        "supportedWhen": {
+          "family": ["GEN1"]
+        }
+      },
+      {
+        "value": "3182592UL",
+        "supportedWhen": {
+          "family": ["GEN2+"]
+        }
+      }
+    ]
+  },
+    {
+    "name": "RAM_DL",
+    "kind": "memory_region",
+    "summary": "Display-list RAM base address",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": ["display"],
+    "variants": [
+      {
+        "value": "0x100000",
+        "supportedWhen": {
+          "family": ["GEN1"]
+        }
+      },
+      {
+        "value": "0x300000",
+        "supportedWhen": {
+          "family": ["GEN2+"]
+        }
+      }
+    ]
+  },
+  {
+    "name": "ROMFONT_TABLEADDRESS",
+    "kind": "memory_region",
+    "summary": "ROM font table address",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": ["display"],
+    "variants": [
+      {
+        "value": "1048572UL",
+        "supportedWhen": {
+          "family": ["GEN1"]
+        }
+      },
+      {
+        "value": "3145724UL",
+        "supportedWhen": {
+          "family": ["GEN2+"]
+        }
+      }
+    ]
+  },
+  {
+    "name": "RAM_PAL",
+    "kind": "memory_region",
+    "value": "(RAM_DL + 8192)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "RAM_TOP",
+    "kind": "memory_region",
+    "value": "(RAM_DL + 16384)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "RAM_CMD",
+    "kind": "memory_region",
+    "value": "(RAM_DL + 32768)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "RAM_J1RAM",
+    "kind": "memory_region",
+    "value": "(RAM_DL + 36864)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "RAM_ROMSUB",
+    "kind": "memory_region",
+    "value": "(RAM_DL + 40960)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "RAM_JTBOOT",
+    "kind": "memory_region",
+    "value": "(RAM_DL + 45056)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "RAM_BIST",
+    "kind": "memory_region",
+    "value": "(RAM_DL + 524288)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "RAM_COMPOSITE",
+    "kind": "memory_region",
+    "value": "(RAM_DL + 794624)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "RAM_REG",
+    "kind": "memory_region",
+    "value": "(EVE_HAL_REG_ID + 0)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_ID",
+    "kind": "register",
+    "value": "(EVE_HAL_REG_ID + 0)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_FRAMES",
+    "kind": "register",
+    "value": "(REG_ID + 4)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CLOCK",
+    "kind": "register",
+    "value": "(REG_ID + 8)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_FREQUENCY",
+    "kind": "register",
+    "value": "(REG_ID + 12)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_RENDERMODE",
+    "kind": "register",
+    "value": "(REG_ID + 16)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_SNAPY",
+    "kind": "register",
+    "value": "(REG_ID + 20)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_SNAPSHOT",
+    "kind": "register",
+    "value": "(REG_ID + 24)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_SNAPFORMAT",
+    "kind": "register",
+    "value": "(REG_ID + 28)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CPURESET",
+    "kind": "register",
+    "value": "(EVE_HAL_REG_CPURESET + 0)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TAP_CRC",
+    "kind": "register",
+    "value": "(REG_CPURESET + 4)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TAP_MASK",
+    "kind": "register",
+    "value": "(REG_CPURESET + 8)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_HCYCLE",
+    "kind": "register",
+    "value": "(REG_CPURESET + 12)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_HOFFSET",
+    "kind": "register",
+    "value": "(REG_CPURESET + 16)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_HSIZE",
+    "kind": "register",
+    "value": "(REG_CPURESET + 20)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_HSYNC0",
+    "kind": "register",
+    "value": "(REG_CPURESET + 24)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_HSYNC1",
+    "kind": "register",
+    "value": "(REG_CPURESET + 28)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_VCYCLE",
+    "kind": "register",
+    "value": "(REG_CPURESET + 32)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_VOFFSET",
+    "kind": "register",
+    "value": "(REG_CPURESET + 36)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_VSIZE",
+    "kind": "register",
+    "value": "(REG_CPURESET + 40)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_VSYNC0",
+    "kind": "register",
+    "value": "(REG_CPURESET + 44)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_VSYNC1",
+    "kind": "register",
+    "value": "(REG_CPURESET + 48)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_DLSWAP",
+    "kind": "register",
+    "value": "(REG_CPURESET + 52)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_ROTATE",
+    "kind": "register",
+    "value": "(REG_CPURESET + 56)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_OUTBITS",
+    "kind": "register",
+    "value": "(REG_CPURESET + 60)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_DITHER",
+    "kind": "register",
+    "value": "(REG_CPURESET + 64)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_SWIZZLE",
+    "kind": "register",
+    "value": "(REG_CPURESET + 68)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CSPREAD",
+    "kind": "register",
+    "value": "(REG_CPURESET + 72)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PCLK_POL",
+    "kind": "register",
+    "value": "(REG_CPURESET + 76)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PCLK",
+    "kind": "register",
+    "value": "(REG_CPURESET + 80)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TAG_X",
+    "kind": "register",
+    "value": "(REG_CPURESET + 84)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TAG_Y",
+    "kind": "register",
+    "value": "(REG_CPURESET + 88)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TAG",
+    "kind": "register",
+    "value": "(REG_CPURESET + 92)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_VOL_PB",
+    "kind": "register",
+    "value": "(REG_CPURESET + 96)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "audio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_VOL_SOUND",
+    "kind": "register",
+    "value": "(REG_CPURESET + 100)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "audio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_SOUND",
+    "kind": "register",
+    "value": "(REG_CPURESET + 104)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "audio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PLAY",
+    "kind": "register",
+    "value": "(REG_CPURESET + 108)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_GPIO_DIR",
+    "kind": "register",
+    "value": "(REG_CPURESET + 112)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "gpio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_GPIO",
+    "kind": "register",
+    "value": "(REG_CPURESET + 116)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "gpio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_GPIOX_DIR",
+    "kind": "register",
+    "value": "(REG_CPURESET + 120)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "gpio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_GPIOX",
+    "kind": "register",
+    "value": "(REG_CPURESET + 124)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "gpio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_J1_COLD",
+    "kind": "register",
+    "value": "(REG_CPURESET + 128)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_J1_INT",
+    "kind": "register",
+    "value": "(EVE_HAL_REG_J1_INT + 0)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "interrupts"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_INT_FLAGS",
+    "kind": "register",
+    "value": "(REG_J1_INT + 4)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "interrupts"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_INT_EN",
+    "kind": "register",
+    "value": "(REG_J1_INT + 8)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "interrupts"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_INT_MASK",
+    "kind": "register",
+    "value": "(REG_J1_INT + 12)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "interrupts"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PLAYBACK_START",
+    "kind": "register",
+    "value": "(REG_J1_INT + 16)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "audio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PLAYBACK_LENGTH",
+    "kind": "register",
+    "value": "(REG_J1_INT + 20)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "audio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PLAYBACK_READPTR",
+    "kind": "register",
+    "value": "(REG_J1_INT + 24)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "audio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PLAYBACK_FREQ",
+    "kind": "register",
+    "value": "(REG_J1_INT + 28)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "audio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PLAYBACK_FORMAT",
+    "kind": "register",
+    "value": "(REG_J1_INT + 32)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "audio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PLAYBACK_LOOP",
+    "kind": "register",
+    "value": "(REG_J1_INT + 36)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "audio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PLAYBACK_PLAY",
+    "kind": "register",
+    "value": "(REG_J1_INT + 40)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "audio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PWM_HZ",
+    "kind": "register",
+    "value": "(REG_J1_INT + 44)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PWM_DUTY",
+    "kind": "register",
+    "value": "(REG_J1_INT + 48)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_MACRO_0",
+    "kind": "register",
+    "value": "(REG_J1_INT + 52)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_MACRO_1",
+    "kind": "register",
+    "value": "(REG_J1_INT + 56)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CYA0",
+    "kind": "register",
+    "value": "(REG_J1_INT + 60)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CYA1",
+    "kind": "register",
+    "value": "(REG_J1_INT + 64)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_BUSYBITS",
+    "kind": "register",
+    "value": "(REG_J1_INT + 68)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_ROMSUB_SEL",
+    "kind": "register",
+    "value": "(REG_J1_INT + 76)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_RAM_FOLD",
+    "kind": "register",
+    "value": "(REG_J1_INT + 80)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CMD_READ",
+    "kind": "register",
+    "value": "(EVE_HAL_REG_CMD_READ + 0)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CMD_WRITE",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 4)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CMD_DL",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 8)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_MODE",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 12)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CTOUCH_EXTENDED",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 16)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_ADC_MODE",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 16)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EHOST_TOUCH_X",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 20)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_CHARGE",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 20)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_SETTLE",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 24)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EHOST_TOUCH_ID",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 28)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_OVERSAMPLE",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 28)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EHOST_TOUCH_Y",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 32)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_RZTHRESH",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 32)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CTOUCH_TOUCH1_XY",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 36)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_RAW_XY",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 36)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CTOUCH_IDS",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 40)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CTOUCH_TOUCH4_Y",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 40)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_RZ",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 40)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CTOUCH_TOUCH0_XY",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 44)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_SCREEN_XY",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 44)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TAG_XY",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 48)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TAG",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 52)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TAG1_XY",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 56)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TAG1",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 60)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TAG2_XY",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 64)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TAG2",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 68)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TAG3_XY",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 72)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TAG3",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 76)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TAG4_XY",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 80)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TAG4",
+    "kind": "register",
+    "value": "(REG_CMD_READ + 84)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TRANSFORM_A",
+    "kind": "register",
+    "value": "(EVE_HAL_REG_TOUCH_TRANSFORM_A + 0)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TRANSFORM_B",
+    "kind": "register",
+    "value": "(REG_TOUCH_TRANSFORM_A + 4)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TRANSFORM_C",
+    "kind": "register",
+    "value": "(REG_TOUCH_TRANSFORM_A + 8)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TRANSFORM_D",
+    "kind": "register",
+    "value": "(REG_TOUCH_TRANSFORM_A + 12)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TRANSFORM_E",
+    "kind": "register",
+    "value": "(REG_TOUCH_TRANSFORM_A + 16)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_TRANSFORM_F",
+    "kind": "register",
+    "value": "(REG_TOUCH_TRANSFORM_A + 20)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_CONFIG",
+    "kind": "register",
+    "value": "(REG_TOUCH_TRANSFORM_A + 24)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_ANALOG",
+    "kind": "register",
+    "value": "(REG_TOUCH_TRANSFORM_A + 28)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CTOUCH_GESTURE",
+    "kind": "register",
+    "value": "(REG_TOUCH_TRANSFORM_A + 28)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CTOUCH_TOUCH4_X",
+    "kind": "register",
+    "value": "(REG_TOUCH_TRANSFORM_A + 28)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PATCHED_TOUCH_FAULT",
+    "kind": "register",
+    "value": "(REG_TOUCH_TRANSFORM_A + 28)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EHOST_TOUCH_ACK",
+    "kind": "register",
+    "value": "(REG_TOUCH_TRANSFORM_A + 32)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PATCHED_ANALOG",
+    "kind": "register",
+    "value": "(REG_TOUCH_TRANSFORM_A + 32)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_FAULT",
+    "kind": "register",
+    "value": "(REG_TOUCH_TRANSFORM_A + 32)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_BIST_EN",
+    "kind": "register",
+    "value": "(REG_TOUCH_TRANSFORM_A + 36)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CRC",
+    "kind": "register",
+    "value": "(EVE_HAL_REG_CRC + 0)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_SPI_EARLY_TX",
+    "kind": "register",
+    "value": "(REG_CRC + 4)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "spi"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TRIM",
+    "kind": "register",
+    "value": "(EVE_HAL_REG_TRIM + 0)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_ANA_COMP",
+    "kind": "register",
+    "value": "(REG_TRIM + 4)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_SPI_WIDTH",
+    "kind": "register",
+    "value": "(REG_TRIM + 8)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "spi"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CTOUCH_TOUCH2_XY",
+    "kind": "register",
+    "value": "(EVE_HAL_REG_TOUCH_DIRECT_XY + 0)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_DIRECT_XY",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 0)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CTOUCH_TOUCH3_XY",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 4)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TOUCH_DIRECT_Z1Z2",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 4)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_READY",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 8)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_BUSY",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 12)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_DAT",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 16)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_OPTIONS",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 20)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_DST",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 24)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_W",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 28)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_H",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 32)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_FORMAT",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 36)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_RI",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 40)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_TQ",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 44)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_TDA",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 48)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_Q",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 52)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_HT",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 180)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_DCC",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 436)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_ACC",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 460)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_SCALE",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 972)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_EJPG_DEBUG",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 976)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_RASTERY",
+    "kind": "register",
+    "value": "(REG_CTOUCH_TOUCH2_XY + 980)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_DATESTAMP",
+    "kind": "register",
+    "value": "(EVE_HAL_REG_DATESTAMP + 0)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CMDB_SPACE",
+    "kind": "register",
+    "value": "(EVE_HAL_REG_CMDB_SPACE + 0)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CMDB_WRITE",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 4)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_ADAPTIVE_FRAMERATE",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 8)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_SPIM_DIR",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 12)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "spi"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_SPIM",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 16)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "spi"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_ESPIM_READSTART",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 20)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "spi"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_ESPIM_SEQ",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 24)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "spi"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_ESPIM_ADD",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 40)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "spi"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_ESPIM_COUNT",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 44)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "spi"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_ESPIM_WINDOW",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 48)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "spi"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_ESPIM_DUMMY",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 112)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "spi"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_ESPIM_TRIG",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 116)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "spi"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PLAYBACK_PAUSE",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 120)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "audio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_FLASH_STATUS",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 124)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "flash"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_FULLBUSYBITS",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 128)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "coprocessor"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_SHA1KEY",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 144)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_UNDERRUN",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 152)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_AH_HCYCLE_MAX",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 156)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PCLK_FREQ",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 160)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PCLK_2X",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 164)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_FLASH_DTR",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 168)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "flash"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_ESPIM_DTR",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 172)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "spi"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_HSF_HSIZE",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 176)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_HSF_FT1",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 180)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_HSF_FSCALE",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 184)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_HSF_F00",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 188)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_HSF_F02",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 192)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_HSF_F03",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 196)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_HSF_F10",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 200)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_HSF_F11",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 204)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_HSF_F12",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 208)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_HSF_F13",
+    "kind": "register",
+    "value": "(REG_CMDB_SPACE + 212)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "display"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN4+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TRACKER",
+    "kind": "register",
+    "value": "(EVE_HAL_REG_TRACKER + 0)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TRACKER_1",
+    "kind": "register",
+    "value": "(REG_TRACKER + 4)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TRACKER_2",
+    "kind": "register",
+    "value": "(REG_TRACKER + 8)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TRACKER_3",
+    "kind": "register",
+    "value": "(REG_TRACKER + 12)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_TRACKER_4",
+    "kind": "register",
+    "value": "(REG_TRACKER + 16)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_MEDIAFIFO_READ",
+    "kind": "register",
+    "value": "(REG_TRACKER + 20)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_MEDIAFIFO_WRITE",
+    "kind": "register",
+    "value": "(REG_TRACKER + 24)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_MEDIAFIFO_BASE",
+    "kind": "register",
+    "value": "(REG_TRACKER + 28)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_MEDIAFIFO_SIZE",
+    "kind": "register",
+    "value": "(REG_TRACKER + 32)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "media"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_FLASH_SIZE",
+    "kind": "register",
+    "value": "(REG_TRACKER + 36)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "flash"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_ANIM_ACTIVE",
+    "kind": "register",
+    "value": "(REG_TRACKER + 44)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "animation"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_DF_TUNED",
+    "kind": "register",
+    "value": "(REG_TRACKER + 48)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "system"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_PLAY_CONTROL",
+    "kind": "register",
+    "value": "(REG_TRACKER + 334)",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "audio"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CTOUCH_TOUCHA_XY",
+    "kind": "register",
+    "value": "REG_CTOUCH_TOUCH1_XY",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CTOUCH_TOUCHB_XY",
+    "kind": "register",
+    "value": "REG_CTOUCH_TOUCH2_XY",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CTOUCH_TOUCHC_XY",
+    "kind": "register",
+    "value": "REG_CTOUCH_TOUCH3_XY",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CTOUCH_TOUCHD_X",
+    "kind": "register",
+    "value": "REG_CTOUCH_TOUCH4_X",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  },
+  {
+    "name": "REG_CTOUCH_TOUCHD_Y",
+    "kind": "register",
+    "value": "REG_CTOUCH_TOUCH4_Y",
+    "summary": "",
+    "source_file": "common/eve_hal/EVE_GpuDefs.h",
+    "related_features": [
+      "touch"
+    ],
+    "supportedWhen": {
+      "family": [
+        "GEN1+"
+      ]
+    }
+  }
+]
