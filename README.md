@@ -7,7 +7,7 @@ This document defines the product and engineering specification for a Model Cont
 The goal is to turn the Pre820 SDK and sample repository into an AI-assisted developer workflow that helps users:
 
 - find the right sample faster
-- understand Pre820 / EVE API symbols
+- understand Pre820 EVE API symbols
 - map user requirements to commands and samples
 - generate minimal screen scaffolds
 - validate common mistakes in Pre820 application code (TBD)
@@ -96,7 +96,7 @@ The system consists of two major parts:
 
 ### 5.1 Offline Indexer
 
-The indexer scans the `EveApps-BT82X` repo and generates structured JSON artifacts:
+The indexer scans the `EveApps` repo and generates structured JSON artifacts:
 
 - `commands.json`
 - `samples.json`
