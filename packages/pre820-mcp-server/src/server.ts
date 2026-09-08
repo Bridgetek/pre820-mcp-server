@@ -77,7 +77,7 @@ const context = createWorkspaceContext(eveappsRoot);
 const server = new McpServer(
     {
         name: "pre820-mcp-server",
-        version: "1.0.0"
+        version: "1.0.1"
     },
     {
         capabilities: {

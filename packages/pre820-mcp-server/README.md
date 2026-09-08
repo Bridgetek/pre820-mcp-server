@@ -104,8 +104,8 @@ EveApps repository + indexes
 Build from the monorepo root:
 
 ```sh
-# Install dependencies:
-npm install
+# Install locked dependencies:
+npm ci
 
 # Build all packages:
 npm run build
@@ -116,6 +116,10 @@ npm --prefix packages/pre820-mcp-server run build
 # Run the built server:
 node packages/pre820-mcp-server/dist/cli.js --eveapps /path/to/EveApps-repository
 ```
+
+Use `npm ci` for fresh checkouts and CI builds. Commit the root `package-lock.json` to GitHub so contributors and CI use the same dependency versions. This monorepo shares one root lockfile; do not create a separate lockfile in this package.
+
+To add or update this package's dependencies, run `npm install <dependency> --workspace @bridgetek/pre820-mcp-server` from the repository root. Commit the changed package manifest together with the root `package-lock.json`. Keep `node_modules/` ignored by Git.
 
 ## Publishing
 
@@ -152,8 +156,10 @@ npm --prefix packages/pre820-mcp-server link
 Make sure dependencies are installed from the repository root:
 
 ```
-npm install
+npm ci
 ```
+
+If `npm ci` reports that the lockfile and package manifests are out of sync after an intentional dependency change, run `npm install` from the repository root and commit the updated manifests and root `package-lock.json`.
 
 Then rebuild:
 

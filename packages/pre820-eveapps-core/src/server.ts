@@ -34,7 +34,7 @@ import { loadBuildMatrix, loadCommands, loadSamples, loadRegisters } from "./lib
 
 const server = new McpServer({
     name: "pre820-mcp-server",
-    version: "0.1.0",
+    version: "1.0.1",
 });
 
 server.registerTool(

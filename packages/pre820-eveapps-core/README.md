@@ -76,13 +76,19 @@ The MCP server provides the AI integration layer, while this package provides th
 From the repo root (monorepo):
 
 ```bash
-# install deps
-npm install
+# install locked dependencies
+npm ci
 # build this package
 npm --prefix packages/pre820-eveapps-core run build
 # or build all packages from root
 npm run build
 ```
+
+Use `npm ci` for fresh checkouts and CI builds. Commit the root `package-lock.json` to GitHub so contributors and CI use the same dependency versions. This monorepo shares one root lockfile; do not create a separate lockfile in this package.
+
+To add or update this package's dependencies, run `npm install <dependency> --workspace @bridgetek/pre820-eveapps-core` from the repository root. Commit the changed package manifest together with the root `package-lock.json`. Keep `node_modules/` ignored by Git.
+
+If `npm ci` reports that the lockfile and package manifests are out of sync after an intentional dependency change, run `npm install` from the repository root and commit the updated manifests and root lockfile.
 
 TypeScript path mapping in `packages/pre820-mcp-server/tsconfig.json` points at the local `src/index.ts` for fast development.
 

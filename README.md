@@ -125,6 +125,21 @@ Recommended implementation:
 
 This guide explains how to connect the Pre820 MCP Server to your local EveApps workspace, enabling AI assistants to understand the EveApps SDK, browse samples, and provide project-aware assistance.
 
+### Developing this monorepo
+
+From the root of this repository, install the locked dependencies and build all packages:
+
+```sh
+npm ci
+npm run build
+```
+
+Use `npm ci` for fresh checkouts and CI builds. It installs the versions recorded in `package-lock.json` and fails if the lockfile and package manifests are out of sync.
+
+Commit the root `package-lock.json` to GitHub. This npm workspace uses one shared lockfile; run dependency commands from the repository root rather than creating lockfiles in individual packages. When adding or updating dependencies, use `npm install` (with `--workspace <package-name>` for a workspace package) and commit the changed `package.json` files together with `package-lock.json`. Keep `node_modules/` ignored by Git.
+
+The installation instructions below are for using the published MCP server with an EveApps checkout.
+
 ### Prerequisites
 
 Before you begin, make sure you have:
