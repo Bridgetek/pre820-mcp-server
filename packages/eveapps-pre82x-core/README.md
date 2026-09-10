@@ -1,8 +1,8 @@
-# @bridgetek/pre820-eveapps-core
+# @bridgetek/eveapps-pre82x-core
 
 Core runtime library for PRE820 and EveApps development workflows.
 
-`@bridgetek/pre820-eveapps-core` provides the retrieval engine, ranking logic, indexed data access, and reusable tool implementations used by the `@bridgetek/pre820-mcp-server`.
+`@bridgetek/eveapps-pre82x-core` provides the retrieval engine, ranking logic, indexed data access, and reusable tool implementations used by the `@bridgetek/eveapps-pre82x-mcp-server`.
 
 It includes:
 
@@ -16,7 +16,7 @@ It includes:
 From npm (public scoped package):
 
 ```bash
-npm install @bridgetek/pre820-eveapps-core
+npm install @bridgetek/eveapps-pre82x-core
 ```
 
 When using this monorepo locally, prefer building from source and referencing the package via workspace path or local import.
@@ -31,7 +31,7 @@ import {
   retrieveAnswer,
   findRelevantSample,
   // ...other exports
-} from "@bridgetek/pre820-eveapps-core";
+} from "@bridgetek/eveapps-pre82x-core";
 
 const context = createWorkspaceContext("/path/to/EveApps-repo");
 const result = await retrieveAnswer({ query: "display list of commands" }, { context });
@@ -58,11 +58,11 @@ During the build process these files are included in:
 
 and published with the npm package.
 
-## Relationship with PRE820 MCP Server
+## Relationship with EveApps-Pre82x MCP Server
 
 This package is the core library layer used by:
 
-`@bridgetek/pre820-mcp-server`
+`@bridgetek/eveapps-pre82x-mcp-server`
 
 The MCP server provides the AI integration layer, while this package provides the underlying:
 
@@ -79,18 +79,18 @@ From the repo root (monorepo):
 # install locked dependencies
 npm ci
 # build this package
-npm --prefix packages/pre820-eveapps-core run build
+npm --prefix packages/eveapps-pre82x-core run build
 # or build all packages from root
 npm run build
 ```
 
 Use `npm ci` for fresh checkouts and CI builds. Commit the root `package-lock.json` to GitHub so contributors and CI use the same dependency versions. This monorepo shares one root lockfile; do not create a separate lockfile in this package.
 
-To add or update this package's dependencies, run `npm install <dependency> --workspace @bridgetek/pre820-eveapps-core` from the repository root. Commit the changed package manifest together with the root `package-lock.json`. Keep `node_modules/` ignored by Git.
+To add or update this package's dependencies, run `npm install <dependency> --workspace @bridgetek/eveapps-pre82x-core` from the repository root. Commit the changed package manifest together with the root `package-lock.json`. Keep `node_modules/` ignored by Git.
 
 If `npm ci` reports that the lockfile and package manifests are out of sync after an intentional dependency change, run `npm install` from the repository root and commit the updated manifests and root lockfile.
 
-TypeScript path mapping in `packages/pre820-mcp-server/tsconfig.json` points at the local `src/index.ts` for fast development.
+TypeScript path mapping in `packages/eveapps-pre82x-mcp-server/tsconfig.json` points at the local `src/index.ts` for fast development.
 
 ## FT90X and FT93X builds
 
@@ -116,18 +116,18 @@ Use `cmake --build ./ --target <project>` to build one DemoApps or SampleApp fol
 This package is scoped to the `@bridgetek` org. To publish:
 
 ```bash
-cd packages/pre820-eveapps-core
+cd packages/eveapps-pre82x-core
 # ensure version bumped if needed
 npm version patch
 npm publish --access public
 ```
 
-Then publish dependent packages (for example `@bridgetek/pre820-mcp-server`) after the core package is available.
+Then publish dependent packages (for example `@bridgetek/eveapps-pre82x-mcp-server`) after the core package is available.
 
 > [!NOTE]
 > - The package is configured as a public scoped npm package.
 > - If npm account security requires two-factor authentication, an OTP may be required during publishing.
-> - Dependent packages such as `@bridgetek/pre820-mcp-server` should be updated after publishing a new core version.
+> - Dependent packages such as `@bridgetek/eveapps-pre82x-mcp-server` should be updated after publishing a new core version.
 
 ## License
 

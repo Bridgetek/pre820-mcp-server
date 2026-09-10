@@ -1,4 +1,4 @@
-# Pre820 MCP Server Specification
+# EveApps-Pre82x MCP Server Specification
 
 ## 1. Purpose
 
@@ -121,9 +121,9 @@ Recommended implementation:
 
 ---
 
-## 6. Pre820 MCP Server Setup Guide for EveApps
+## 6. EveApps-Pre82x MCP Server Setup Guide for EveApps
 
-This guide explains how to connect the Pre820 MCP Server to your local EveApps workspace, enabling AI assistants to understand the EveApps SDK, browse samples, and provide project-aware assistance.
+This guide explains how to connect the EveApps-Pre82x MCP Server to your local EveApps workspace, enabling AI assistants to understand the EveApps SDK, browse samples, and provide project-aware assistance.
 
 ### Developing this monorepo
 
@@ -170,13 +170,13 @@ D:\EveApps
 #### Install the latest version globally using npm:
 
 ```sh
-npm install -g @bridgetek/pre820-mcp-server
+npm install -g @bridgetek/eveapps-pre82x-mcp-server
 ```
 
 After installation, you can verify it by running:
 
 ```sh
-pre820-mcp-server --help
+eveapps-pre82x-mcp-server --help
 ```
 
 ### Option 1: Using Visual Studio Code + Claude Code
@@ -198,8 +198,8 @@ Add the following content:
 ```
 {
   "mcpServers": {
-    "pre820": {
-      "command": "pre820-mcp-server",
+    "EveApps-Pre82x": {
+      "command": "eveapps-pre82x-mcp-server",
       "args": [
         "--eveapps",
         "D:\\EveApps"
@@ -222,8 +222,8 @@ For example:
 ```
 {
   "mcpServers": {
-    "pre820": {
-      "command": "pre820-mcp-server",
+    "EveApps-Pre82x": {
+      "command": "eveapps-pre82x-mcp-server",
       "args": [
         "--eveapps",
         "C:\\Users\\John\\Documents\\EveApps"
@@ -242,7 +242,7 @@ For example:
 
 Save the **.mcp.json** file.
 
-Close and reopen Visual Studio Code (or reload the window) so that the MCP configuration is detected and the Pre820 MCP Server starts.
+Close and reopen Visual Studio Code (or reload the window) so that the MCP configuration is detected and the EveApps-Pre82x MCP Server starts.
 
 #### Step 4: Verify the MCP Server
 
@@ -252,7 +252,7 @@ Open Claude Code and run:
 /mcp
 ```
 
-Confirm that the Pre820 MCP Server appears in the list and shows a connected status.
+Confirm that the EveApps-Pre82x MCP Server appears in the list and shows a connected status.
 
 Once connected, you can start using the server by asking questions such as:
 
@@ -266,17 +266,17 @@ If the MCP server is configured correctly, Claude Code should list the available
 
 #### Step 1: Open Claude Desktop MCP Settings
 
-Open the Claude Desktop MCP configuration file("claude_desktop_config.json") and add a new Pre820 server entry.
+Open the Claude Desktop MCP configuration file("claude_desktop_config.json") and add a new EveApps-Pre82x server entry.
 
-#### step 2: Add the Pre820 MCP Server Configuration
+#### step 2: Add the EveApps-Pre82x MCP Server Configuration
 
 Example configuration:
 
 ```
 {
   "mcpServers": {
-    "pre820": {
-      "command": "pre820-mcp-server",
+    "EveApps-Pre82x": {
+      "command": "eveapps-pre82x-mcp-server",
       "args": [
         "--eveapps",
         "D:\\EveApps"
@@ -303,18 +303,18 @@ What tools do you have for Pre820?
 If the server starts successfully, Claude Desktop will be able to access the Pre820-specific tools provided by the MCP server.
 
 ### Troubleshooting
-#### pre820-mcp-server is not recognized
+#### eveapps-pre82x-mcp-server is not recognized
 
 Verify that the package was installed successfully:
 
 ```sh
-npm install -g pre820-mcp-server
+npm install -g eveapps-pre82x-mcp-server
 ```
 
 Then check:
 
 ```sh
-pre820-mcp-server --help
+eveapps-pre82x-mcp-server --help
 ```
 
 If the command is still not found, ensure that your global npm installation path is included in your system **PATH** environment variable.

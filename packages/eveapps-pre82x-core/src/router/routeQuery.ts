@@ -13,7 +13,7 @@ export function routeQuery(
         return {
             source: "core",
             confidence: coreScore,
-            reason: "High confidence match in pre820-eveapps-core index"
+            reason: "High confidence match in eveapps-pre82x-core index"
         };
     }
 

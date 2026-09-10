@@ -8,12 +8,12 @@
     "ignoreDeprecations": "5.0",
     "baseUrl": ".",
     "paths": {
-      "@bridgetek/pre820-eveapps-core": ["../pre820-eveapps-core/src/index.ts"]
+      "@bridgetek/eveapps-pre82x-core": ["../eveapps-pre82x-core/src/index.ts"]
     }
   },
   "references": [
     {
-      "path": "../pre820-eveapps-core"
+      "path": "../eveapps-pre82x-core"
     }
   ],
   "include": [

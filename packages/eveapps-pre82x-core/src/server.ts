@@ -33,8 +33,8 @@ import {
 import { loadBuildMatrix, loadCommands, loadSamples, loadRegisters } from "./lib/loadIndex.js";
 
 const server = new McpServer({
-    name: "pre820-mcp-server",
-    version: "1.0.1",
+    name: "EveApps-Pre82x",
+    version: "1.1.0",
 });
 
 server.registerTool(
@@ -312,6 +312,6 @@ async function main() {
 }
 
 main().catch((err) => {
-    console.error("PRE820 MCP server failed:", err);
+    console.error("EveApps-Pre82x MCP server failed:", err);
     process.exit(1);
 });

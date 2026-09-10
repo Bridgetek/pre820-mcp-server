@@ -1,10 +1,12 @@
-# @bridgetek/pre820-mcp-server
+# EveApps-Pre82x MCP Server
 
-MCP server for AI-assisted PRE820 and EveApps development.
+EveApps-Pre82x MCP Server for AI-assisted PRE820 and EveApps development.
 
-`@bridgetek/pre820-mcp-server` provides a local Model Context Protocol (MCP) server that enables AI coding assistants to interact with PRE820/EveApps development resources.
+The server identifies itself to MCP clients as `EveApps-Pre82x`. The npm package and executable are `@bridgetek/eveapps-pre82x-mcp-server` and `eveapps-pre82x-mcp-server`.
 
-It uses `@bridgetek/pre820-eveapps-core` as the underlying engine for:
+`@bridgetek/eveapps-pre82x-mcp-server` provides a local Model Context Protocol (MCP) server that enables AI coding assistants to interact with PRE820/EveApps development resources.
+
+It uses `@bridgetek/eveapps-pre82x-core` as the underlying engine for:
 
 - API and command lookup
 - Sample discovery
@@ -19,13 +21,13 @@ The server works with a local EveApps repository checkout to provide project-awa
 Install from npm:
 
 ```
-npm install -g @bridgetek/pre820-mcp-server
+npm install -g @bridgetek/eveapps-pre82x-mcp-server
 ```
 
 Verify installation:
 
 ```
-pre820-mcp-server --help
+eveapps-pre82x-mcp-server --help
 ```
 
 ## Quick start
@@ -33,7 +35,7 @@ pre820-mcp-server --help
 Start the MCP server with your local EveApps repository:
 
 ```
-pre820-mcp-server --eveapps /path/to/EveApps-repository
+eveapps-pre82x-mcp-server --eveapps /path/to/EveApps-repository
 ```
 
 If `--eveapps` is not provided, the current working directory will be used.
@@ -45,8 +47,8 @@ Example:
 ```
 {
   "mcpServers": {
-    "pre820": {
-      "command": "pre820-mcp-server",
+    "EveApps-Pre82x": {
+      "command": "eveapps-pre82x-mcp-server",
       "args": [
         "--eveapps",
         "/path/to/EveApps-repository"
@@ -73,13 +75,13 @@ The MCP server provides AI-assisted workflows for PRE820/EVE development, includ
 - Mapping requirements to existing examples
 - Supporting code generation and validation workflows
 
-## Relationship with pre820-eveapps-core
+## Relationship with eveapps-pre82x-core
 
 This package provides the MCP integration layer.
 
 The underlying retrieval and indexing functionality is provided by:
 
-`@bridgetek/pre820-eveapps-core`
+`@bridgetek/eveapps-pre82x-core`
 
 Architecture:
 
@@ -87,10 +89,10 @@ Architecture:
 AI Assistant
       |
       v
-pre820-mcp-server
+eveapps-pre82x-mcp-server
       |
       v
-pre820-eveapps-core
+eveapps-pre82x-core
       |
       v
 EveApps repository + indexes
@@ -98,8 +100,8 @@ EveApps repository + indexes
 
 ## Development
 
-- Source entry: `packages/pre820-mcp-server/src/server.ts` (TypeScript).
-- TypeScript path mapping uses the local `@bridgetek/pre820-eveapps-core` source for fast development. See `packages/pre820-mcp-server/tsconfig.json`.
+- Source entry: `packages/eveapps-pre82x-mcp-server/src/server.ts` (TypeScript).
+- TypeScript path mapping uses the local `@bridgetek/eveapps-pre82x-core` source for fast development. See `packages/eveapps-pre82x-mcp-server/tsconfig.json`.
 
 Build from the monorepo root:
 
@@ -111,44 +113,44 @@ npm ci
 npm run build
 
 # Or build only the MCP server:
-npm --prefix packages/pre820-mcp-server run build
+npm --prefix packages/eveapps-pre82x-mcp-server run build
 
 # Run the built server:
-node packages/pre820-mcp-server/dist/cli.js --eveapps /path/to/EveApps-repository
+node packages/eveapps-pre82x-mcp-server/dist/cli.js --eveapps /path/to/EveApps-repository
 ```
 
 Use `npm ci` for fresh checkouts and CI builds. Commit the root `package-lock.json` to GitHub so contributors and CI use the same dependency versions. This monorepo shares one root lockfile; do not create a separate lockfile in this package.
 
-To add or update this package's dependencies, run `npm install <dependency> --workspace @bridgetek/pre820-mcp-server` from the repository root. Commit the changed package manifest together with the root `package-lock.json`. Keep `node_modules/` ignored by Git.
+To add or update this package's dependencies, run `npm install <dependency> --workspace @bridgetek/eveapps-pre82x-mcp-server` from the repository root. Commit the changed package manifest together with the root `package-lock.json`. Keep `node_modules/` ignored by Git.
 
 ## Publishing
 
 This package is scoped to the `@bridgetek` organization and is published publicly. Typical publish flow:
 
 ```bash
-cd packages/pre820-eveapps-core
+cd packages/eveapps-pre82x-core
 npm publish --access public
 
-cd ../pre820-mcp-server
+cd ../eveapps-pre82x-mcp-server
 # ensure core is published first (or available in registry)
 npm publish --access public
 ```
 
 > [!NOTE]
-> - `@bridgetek/pre820-eveapps-core` should be published before publishing this package.
+> - `@bridgetek/eveapps-pre82x-core` should be published before publishing this package.
 > - The package is configured as a public scoped npm package.
 > - If the scoped package already exists, bump `version` before publishing: `npm version patch`.
 > - If npm account security requires two-factor authentication, an OTP will be required during publishing.
 
 ## Troubleshooting
 
-### Cannot resolve pre820-eveapps-core
+### Cannot resolve eveapps-pre82x-core
 
 If running from a local development checkout, link both packages:
 
 ```bash
-npm --prefix packages/pre820-eveapps-core link
-npm --prefix packages/pre820-mcp-server link
+npm --prefix packages/eveapps-pre82x-core link
+npm --prefix packages/eveapps-pre82x-mcp-server link
 ```
 
 ### Build issues

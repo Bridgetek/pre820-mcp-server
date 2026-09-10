@@ -29,7 +29,7 @@ import {
     lookupModuleGraphicsInput,
 
     retrieveAnswer
-} from "@bridgetek/pre820-eveapps-core";
+} from "@bridgetek/eveapps-pre82x-core";
 
 import path from "path";
 import fs from "fs";
@@ -50,7 +50,9 @@ function parseArgs(argv: string[]) {
 }
 
 function printUsage(): void {
-    console.log(`Usage: node server.js [--eveapps <path>]
+    console.log(`EveApps-Pre82x MCP Server
+
+Usage: node server.js [--eveapps <path>]
 
 Options:
   --eveapps <path>    Path to the local EveApps repository
@@ -76,8 +78,8 @@ const context = createWorkspaceContext(eveappsRoot);
 // -----------------------------
 const server = new McpServer(
     {
-        name: "pre820-mcp-server",
-        version: "1.0.1"
+        name: "EveApps-Pre82x",
+        version: "1.1.0"
     },
     {
         capabilities: {
@@ -119,7 +121,7 @@ function safeTool<Args extends unknown>(fn: (args: Args, extra?: unknown) => Pro
                 ]
             };
         } catch (err: any) {
-            console.error("[PRE820 MCP ERROR]", err);
+            console.error("[EveApps-Pre82x MCP ERROR]", err);
 
             return {
                 content: [
@@ -186,7 +188,7 @@ server.registerTool(
                 local_repo: context.eveappsRoot ?? null,
 
                 retrieval_priority: [
-                    "pre820-eveapps-core index",
+                    "eveapps-pre82x-core index",
                     "local EveApps source repository",
                     "metadata ranking"
                 ],
@@ -298,7 +300,7 @@ server.registerTool(
 // Startup diagnostics (VERY IMPORTANT for EXE)
 // -----------------------------
 console.error("===================================");
-console.error("PRE820 MCP Server Starting...");
+console.error("EveApps-Pre82x MCP Server Starting...");
 console.error("eveappsRoot:", eveappsRoot ?? "NOT SET");
 console.error("Node:", process.version);
 console.error("===================================");
@@ -309,4 +311,4 @@ console.error("===================================");
 const transport = new StdioServerTransport();
 await server.connect(transport);
 
-console.error("PRE820 MCP Server running...");
+console.error("EveApps-Pre82x MCP Server running...");

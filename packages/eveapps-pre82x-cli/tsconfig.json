@@ -7,7 +7,7 @@
   },
   "references": [
     {
-      "path": "../pre820-eveapps-core"
+      "path": "../eveapps-pre82x-core"
     }
   ],
   "include": [
