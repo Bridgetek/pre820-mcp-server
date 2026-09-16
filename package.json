@@ -1,0 +1,92 @@
+{
+  "name": "bridgetek-pre820-mcp-server-extension",
+  "publisher": "Bridgetek",
+  "displayName": "BridgeTek EveApps-Pre82x MCP Server Extension",
+  "description": "Official BridgeTek EveApps-Pre82x MCP Server for Visual Studio Code. Enables AI assistants to discover PRE820 samples, understand EVE APIs, generate scaffolds, validate code, and generate build commands.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bridgetek/pre820-mcp-server.git"
+  },
+  "icon": "resources/Icon.jpg",
+  "pricing": "Free",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "AI",
+    "Programming Languages"
+  ],
+  "main": "./dist/extension.js",
+  "extensionKind": [
+    "workspace"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": false,
+      "description": "The EveApps-Pre82x MCP server reads source files from the configured EveApps repository."
+    }
+  },
+  "contributes": {
+    "mcpServerDefinitionProviders": [
+      {
+        "id": "bridgetek.pre820",
+        "label": "BridgeTek EveApps-Pre82x"
+      }
+    ],
+    "commands": [
+      {
+        "command": "bridgetek.pre820.selectEveAppsRepository",
+        "title": "EveApps-Pre82x: Select EveApps Repository"
+      }
+    ],
+    "configuration": {
+      "title": "BridgeTek EveApps-Pre82x MCP Server",
+      "properties": {
+        "bridgetekPre820.eveAppsPath": {
+          "type": "string",
+          "default": "",
+          "scope": "resource",
+          "description": "Path to the local EveApps repository. Relative paths are resolved from the first workspace folder. When empty, the first workspace folder is used."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "prepare-bundled-server": "node scripts/sync-bundled-server-version.mjs",
+    "precompile": "npm run prepare-bundled-server",
+    "compile": "npm run check-types && npm run lint && node esbuild.js",
+    "watch": "npm-run-all -p watch:*",
+    "watch:esbuild": "node esbuild.js --watch",
+    "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
+    "prepackage": "npm run prepare-bundled-server",
+    "package": "npm run check-types && npm run lint && node esbuild.js --production",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "24.x",
+    "@types/vscode": "^1.125.0",
+    "@vscode/test-cli": "^0.0.15",
+    "@vscode/test-electron": "^3.0.0",
+    "esbuild": "^0.28.1",
+    "eslint": "^10.5.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.61.1"
+  },
+  "overrides": {
+    "diff": "^8.0.4",
+    "serialize-javascript": "^7.0.6"
+  },
+  "dependencies": {
+    "@bridgetek/eveapps-pre82x-mcp-server": "^1.1.0"
+  }
+}
